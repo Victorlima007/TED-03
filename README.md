@@ -4,8 +4,8 @@ Projeto em Python para leitura, conversão e gravação de dados em arquivos CSV
 
 ## Integrantes
 
-- Nome completo do(a) integrante 1: **preencher**
-- Nome completo do(a) integrante 2: **preencher**
+- Jadson Paz Sales (26.1.13308)
+- Victor Gabriel Guida Lima ()
 
 ## Requisitos
 
@@ -39,9 +39,3 @@ Se o destino já existir, sua versão anterior será copiada para `backups/` ant
 ## Representação dos dados
 
 CSV é tratado como formato textual: os valores lidos de um CSV são strings, preservando inclusive zeros à esquerda, como `001`. Na exportação de JSON para CSV, strings são gravadas como texto e outros tipos JSON (número, booleano, `null`, lista ou objeto) são representados por sua serialização JSON compacta dentro da célula. JSON→CSV aceita uma lista de objetos; colunas ausentes em um registro ficam vazias. CSV vazio ou sem cabeçalho produz uma mensagem de erro porque não contém informação suficiente para definir as colunas.
-
-## Demonstração e relatório
-
-Use os arquivos em `data/` para executar as conversões. Para demonstrar backup, execute uma conversão para um destino existente e repita a operação; o backup da versão substituída ficará em `backups/`. Para demonstrar tratamento de erro, tente, por exemplo, `python main.py ler-csv data/nao_existe.csv`.
-
-O relatório PDF deve ser finalizado pela dupla com identificação institucional e capturas reais das execuções. Não inclua capturas simuladas: registre os comandos e resultados no terminal e insira as imagens e legendas no documento.
