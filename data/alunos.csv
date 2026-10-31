@@ -1,0 +1,3 @@
+id,nome,curso,observacao
+001,João Silva,Análise e Desenvolvimento de Sistemas,"Acentos, vírgulas e UTF-8"
+002,Maria Souza,Ciência da Computação,"Linha com ""aspas"""

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "001",
+    "nome": "João Silva",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "observacao": "Acentos, vírgulas e UTF-8"
+  },
+  {
+    "id": "002",
+    "nome": "Maria Souza",
+    "curso": "Ciência da Computação",
+    "observacao": "Linha com \"aspas\""
+  }
+]
